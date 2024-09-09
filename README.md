@@ -1,4 +1,5 @@
-Project Name - brain media solution site
+Project Name - brain media solution beta site
+live link - [livelink](https://brainmedia.vercel.app/)
 Description -
 IT is built on html css and javascript with tailwind and designed by me with inspiration from current site.
 
@@ -17,10 +18,11 @@ custom cursor
 scroll percentage viewer
 Responsive Design
 Hover Effects
-Eye catching animations
+animations
 
 for deployment 
 output.css , styles.css, index.html and script.js must be included
+
 
 
 
