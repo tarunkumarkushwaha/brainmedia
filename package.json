@@ -1,0 +1,16 @@
+{
+  "name": "brainmedia",
+  "version": "1.0.0",
+  "description": "brainmedia",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tailwindcss -i ./styles.css -o ./output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

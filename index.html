@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brains Media Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="./output.css" rel="stylesheet">
+    <script type="module" src="/script.js" defer></script>
+</head>
+
+<body>
+    <header class="sticky top-0 z-20">
+        <nav class="bg-slate-900/85 sticky top-0 z-20 px-4 md:px-auto min-h-20">
+            <button class="absolute top-5 left-4 md:hidden flex duration-200" id="menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-indigo-100" viewBox="0 0 24 24" fill="currentColor"
+                    width="44" height="44">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
+                </svg>
+            </button>
+            <div class="flex md:flex-row flex-col md:justify-between justify-center items-center">
+                <a href="/index.html"
+                    class="m-4 p-1 md:ml-0 ml-4 md:pl-0 pl-10 text-2xl flex justify-center items-center font-extrabold">
+                    <span class="text-indigo-100">Brains</span> <span class="text-red-600">Media</span> <span
+                        class="text-indigo-100">Solutions</span>
+                </a>
+                <div class="text-grey-500 mx-8">
+                    <ul id="menu"
+                        class="flex font-semibold md:justify-between justify-center items-center md:flex-row flex-col gap-5">
+                        <li class="text-indigo-100 hover:text-indigo-400"><a href="/index.html">Home</a></li>
+                        <li id="aboutusbtn" class="text-indigo-100 hover:text-indigo-400">About us</li>
+                        <li class="text-indigo-100 hover:text-indigo-400 relative group">services
+                            <!-- dropdown  -->
+                            <ul
+                                class="absolute rounded-xl hidden hover:block group-hover:block bg-gray-800 text-white py-2 shadow-lg">
+                                <li class="px-4 w-80 py-2 hover:bg-indigo-400">SEO</li>
+                                <li class="px-4 w-80 py-2 hover:bg-indigo-400">Web Design</li>
+                                <li class="px-4 w-80 py-2 hover:bg-indigo-400">Digital Marketing</li>
+                            </ul>
+                        </li>
+                        <li id="contactbtn" class="text-indigo-100 hover:text-indigo-400">contact us</li>
+                    </ul>
+                </div>
+
+                <div id="right-menu-items" class="flex items-center mt-2">
+                    <input type="search" id="job-search"
+                        class="block outline-none w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Search " />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="bg-slate-900/50 overflow-x-hidden">
+
+            <section class="bg-slate-900/50 text-white py-60 relative">
+                <div class="container mx-auto text-center">
+                    <h1 id="slogan" class="text-4xl md:text-6xl font-bold">Take Your Business Online in Under 24 Hours
+                    </h1>
+                    <p id="slogandescription" class="mt-4 text-lg md:text-xl">In today's digital world, not being on
+                        social media means missing out on potential growth and opportunities. Let us help you get ahead
+                        of the competition.</p>
+                    <a href="/"
+                        class="mt-8 inline-block bg-white text-blue-500 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-blue-400 hover:text-white transition duration-300">
+                        Get Started
+                    </a>
+                </div>
+
+            </section>
+
+            <section id="aboutus" class="flex md:flex-row flex-col justify-center items-center py-40">
+                <div id="left-div"
+                    class="w-full m-5 flex justify-center items-center transform -translate-x-full transition-transform duration-700 ease-in-out">
+                    <div class=" w-[500px] h-64 md:h-96 lg:h-[500px] overflow-hidden rounded-xl">
+
+                        <div id="slider" class="flex transition-transform duration-500 ease-in-out"
+                            style="transform: translateX(0%);">
+                            <!-- Slide numbrr 1 -->
+                            <div class="relative w-full flex-shrink-0">
+                                <img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=1605&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Image 1" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center">
+                                    <h2
+                                        class="text-white text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide animate-fade-in">
+                                        Elevate Your Brand with <br> Stunning Web Design
+                                    </h2>
+                                    <p class="text-white text-lg md:text-xl lg:text-2xl mt-2 opacity-90">
+                                        Crafting visually captivating websites for a seamless user experience.
+                                    </p>
+                                    <button
+                                        class="mt-4 px-6 py-2 bg-blue-500 text-black font-bold rounded hover:bg-yellow-600 transition-all duration-300">
+                                        Explore Now
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- Slide numbrr 2 -->
+                            <div class="relative w-full flex-shrink-0">
+                                <img src="https://plus.unsplash.com/premium_photo-1661425715124-310ec1b49b8a?q=80&w=1582&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Image 2" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center">
+                                    <h2
+                                        class="text-white text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide animate-fade-in">
+                                        Transform Your Business with <br> Digital Marketing
+                                    </h2>
+                                    <p class="text-white text-lg md:text-xl lg:text-2xl mt-2 opacity-90">
+                                        Leverage the power of the internet to scale up!
+                                    </p>
+                                    <button
+                                        class="mt-4 px-6 py-2 bg-blue-500 text-black font-bold rounded hover:bg-yellow-600 transition-all duration-300">
+                                        Learn More
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Slide numbrr 3 -->
+                            <div class="relative w-full flex-shrink-0">
+                                <img src="https://plus.unsplash.com/premium_photo-1685283298465-e52e933a3312?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Image 3" class="w-full h-64 md:h-96 lg:h-[500px] object-cover">
+                                <div
+                                    class="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center">
+                                    <h2
+                                        class="text-white text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide animate-fade-in">
+                                        Boost Your Visibility with <br> Expert SEO Services
+                                    </h2>
+                                    <p class="text-white text-lg md:text-xl lg:text-2xl mt-2 opacity-90">
+                                        Drive organic traffic and rank higher on search engines.
+                                    </p>
+                                    <button
+                                        class="mt-4 px-6 py-2 bg-blue-500 text-black font-bold rounded hover:bg-yellow-600 transition-all duration-300">
+                                        Get Started
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="right-div"
+                    class="m-5 h-80 transform translate-x-full transition-transform duration-700 ease-in-out">
+                    <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl font-extrabold m-10">About Us</h1>
+                    <p class="italic text-white text-xs md:text-lg lg:text-xl opacity-90">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Ab, illum possimus dicta temporibus commodi cum reiciendis
+                        similique totam dolorem maxime repudiandae facere adipisci. Tempore mollitia consectetur libero,
+                        nisi unde accusantium nobis minima dolore enim incidunt animi culpa accusamus maiores
+                        sint iusto! Praesentium accusantium explicabo quae quasi repudiandae numquam tempora. Explicabo!
+                    </p>
+                </div>
+            </section>
+
+
+            <section class=" py-16">
+                <div class="container mx-auto px-6 text-center">
+                  
+                  <h2 class="text-4xl font-bold text-white mb-6">Services We Offer</h2>
+                  <p class="text-lg text-white max-w-xl mx-auto mb-12">
+                    We provide a variety of digital services to help your business thrive in the modern era.
+                  </p>
+              
+                  <!-- Cards -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Card 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105">
+                      <div class="bg-blue-500 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <!-- Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Web Development</h3>
+                      <p class="text-gray-600">
+                        Build modern, responsive websites with cutting-edge technologies to help your business succeed online.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Card 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105">
+                      <div class="bg-green-500 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <!-- Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v8m4-4H8"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Digital Marketing</h3>
+                      <p class="text-gray-600">
+                        Leverage the power of digital platforms to expand your brand's reach and engage with more customers.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Card 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105">
+                      <div class="bg-red-500 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <!-- Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">SEO Optimization</h3>
+                      <p class="text-gray-600">
+                        Improve your website’s visibility in search engines and attract more organic traffic to your business.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Card 4 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105">
+                      <div class="bg-yellow-500 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <!-- Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v8m4-4H8"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Graphic Design</h3>
+                      <p class="text-gray-600">
+                        Create visually compelling graphics and branding that elevate your company’s image and message.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Card 5 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105">
+                      <div class="bg-purple-500 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <!-- Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Mobile App Development</h3>
+                      <p class="text-gray-600">
+                        Develop seamless mobile applications that provide an engaging experience on Android and iOS platforms.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Card 6 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105">
+                      <div class="bg-indigo-500 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                        <!-- Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">E-commerce Solutions</h3>
+                      <p class="text-gray-600">
+                        Design and develop user-friendly online stores that drive sales and provide a great customer experience.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+
+
+            <section class="bg-gradient-to-r from-slate-500 to-slate-900 opacity-80 py-16">
+                <div class="container mx-auto px-6 text-center md:text-left">
+                  <!-- Section Header -->
+                  <h2 class="text-white text-4xl md:text-5xl font-bold mb-4">
+                    Our Mission
+                  </h2>
+                  <p class="text-white text-lg md:text-xl mb-8 max-w-3xl">
+                    our mission Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, consequuntur..
+                  </p>
+              
+                 
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Point 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                      <div class="text-blue-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto md:mx-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 4v16M4 12h16"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Innovation</h3>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quia culpa officiis, distinctio quas necessitatibus, deserunt maxime fuga
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Point 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                      <div class="text-blue-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto md:mx-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M9 12h6M12 9v6M21 21H3V3h18v18z"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Excellence</h3>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde doloribus delectus maxime hire me!
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Point 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                      <div class="text-blue-500 mb-4">
+                        <svg class="w-12 h-12 mx-auto md:mx-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 2l4.29 8.42L22 11l-6.71 6.56L17 22l-5-2.58L7 22l1.71-4.44L2 11l5.71-1.58L12 2z"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-800 mb-2">Commitment</h3>
+                      <p class="text-gray-600">
+                        Dedicated Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, hire me!
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="relative bg-gradient-to-r from-slate-500 to-slate-900 opacity-80 py-16 overflow-hidden">
+               
+                <div class="absolute inset-0 overflow-hidden">
+                  <div class="absolute w-40 h-40 lg:w-72 lg:h-72 bg-blue-500 opacity-20 rounded-full mix-blend-multiply filter blur-xl"></div>
+                  <div class="absolute w-40 h-40 lg:w-72 lg:h-72 bg-pink-500 opacity-20 rounded-full mix-blend-multiply filter blur-xl"></div>
+                  <div class="absolute w-40 h-40 lg:w-72 lg:h-72 bg-yellow-500 opacity-20 rounded-full mix-blend-multiply filter blur-xl"></div>
+                </div>
+              
+               
+                <div class="relative container mx-auto px-6 text-center md:text-left">
+                 
+                  <h2 class="text-white text-3xl md:text-5xl font-bold mb-6">
+                    Our Vision
+                  </h2>
+                  <p class="text-gray-200 text-base md:text-xl mb-10 max-w-3xl mx-auto md:mx-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim repudiandae cupiditate sunt nulla inventore ullam ratione commodi dolor, iste ducimus?
+                  </p>
+              
+              
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Point 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300">
+                      <div class="text-indigo-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto md:mx-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 8v8m4-4H8"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-900 mb-2">Empowerment</h3>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, est.
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Point 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300">
+                      <div class="text-indigo-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto md:mx-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M9 12h6M12 9v6"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-900 mb-2">Sustainability</h3>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, soluta?
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+              
+                    <!-- Point 3 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transform transition-all duration-300">
+                      <div class="text-indigo-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto md:mx-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 2l4.29 8.42L22 11l-6.71 6.56L17 22l-5-2.58L7 22l1.71-4.44L2 11l5.71-1.58L12 2z"></path>
+                        </svg>
+                      </div>
+                      <h3 class="text-2xl font-semibold text-gray-900 mb-2">Leadership</h3>
+                      <p class="text-gray-600">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, exercitationem!
+                      </p>
+                      <button class="bg-black text-white rounded-xl p-1">more info</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              
+            <section id="clients" class="py-8 lg:py-16 px-4 lg:px-8">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-2xl text-white md:text-3xl lg:text-4xl font-bold mb-6 md:mb-8">Successful Clients
+                    </h2>
+                    <p class="text-base md:text-lg lg:text-xl mb-6 md:mb-10 text-white">
+                        Here’s what they have to say.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+                        <!-- Client 1 -->
+                        <div class="bg-white/65 p-4 md:p-6 rounded-lg transform transition-all duration-300 hover:bg-white hover:scale-110">
+                            <img src="https://plus.unsplash.com/premium_photo-1661288439917-1542b58a962b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Client 3 Logo"
+                                class="mx-auto mb-4 w-24 h-24 md:w-28 rounded-2xl md:h-28 object-contain">
+                            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold mb-2">john</h3>
+                            <p class="text-sm md:text-base lg:text-lg text-gray-600">
+                                "Excellent service and support throughout the project. Highly recommend!"
+                            </p>
+                            <button class="bg-black text-white rounded-xl p-1">more info</button>
+                        </div>
+                        <!-- Client 2 -->
+                        <div class="bg-white/65 p-4 md:p-6 rounded-lg transform transition-all duration-300 hover:bg-white hover:scale-110">
+                            <img src="https://plus.unsplash.com/premium_photo-1661288439917-1542b58a962b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Client 2 Logo"
+                                class="mx-auto mb-4 w-24 h-24 md:w-28 rounded-2xl md:h-28 object-contain">
+                            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold mb-2">Client</h3>
+                            <p class="text-sm md:text-base lg:text-lg text-gray-600">
+                                "Excellent service and support throughout the project. Highly recommended"
+                            </p>
+                            <button class="bg-black text-white rounded-xl p-1">more info</button>
+                        </div>
+                        <!-- Client 3 -->
+                        <div class="bg-white/65 p-4 md:p-6 rounded-lg transform transition-all duration-300 hover:bg-white hover:scale-110">
+                            <img src="https://plus.unsplash.com/premium_photo-1661288439917-1542b58a962b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Client 3 Logo"
+                                class="mx-auto mb-4 w-24 h-24 md:w-28 rounded-2xl md:h-28 object-contain">
+                            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold mb-2">john</h3>
+                            <p class="text-sm md:text-base lg:text-lg text-gray-600">
+                                "Excellent service and support throughout the project. Highly recommend!"
+                            </p>
+                            <button class="bg-black text-white rounded-xl p-1">more info</button>
+                        </div>
+                        <!-- Client 4 -->
+                        <div class="bg-white/65 p-4 md:p-6 rounded-lg transform transition-all duration-300 hover:bg-white hover:scale-110">
+                            <img src="https://plus.unsplash.com/premium_photo-1661288439917-1542b58a962b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Client 4 Logo"
+                                class="mx-auto mb-4 w-24 h-24 md:w-28 rounded-2xl md:h-28 object-contain">
+                            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold mb-2">Client</h3>
+                            <p class="text-sm md:text-base lg:text-lg text-gray-600">
+                                "Excellent service and support throughout the project. Highly recommend!"
+                            </p>
+                            <button class="bg-black text-white rounded-xl p-1">more info</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="contact" class="relative text-white py-16 px-4 lg:px-8 opacity-0 transition-opacity duration-1000 ease-in-out">
+                <div class="container mx-auto">
+                  <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-6 md:mb-8">
+                    Contact Us
+                  </h2>
+                  <p class="text-lg md:text-xl lg:text-2xl text-center mb-10 md:mb-12">
+                    We’d love to hear from you! Fill out the form below, and we’ll get back to you shortly.
+                  </p>
+                  <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <form action="#" class="space-y-4">
+                      
+                      <div>
+                        <label for="name" class="block text-gray-700 font-medium">Name</label>
+                        <input type="text" id="name"
+                          class="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out"
+                          placeholder="Your Name" required>
+                      </div>
+                      
+                      <div>
+                        <label for="email" class="block text-gray-700 font-medium">Email</label>
+                        <input type="email" id="email"
+                          class="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out"
+                          placeholder="Your Email" required>
+                      </div>
+                      
+                      <div>
+                        <label for="message" class="block text-gray-700 font-medium">Message</label>
+                        <textarea id="message" rows="4"
+                          class="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 ease-in-out"
+                          placeholder="Your Message" required></textarea>
+                      </div>
+                      
+                      <div class="text-center">
+                        <button type="submit"
+                          class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-md transition-all duration-300 ease-in-out">
+                          Send Message
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </section>
+              
+        </div>
+    </main>
+
+    <div class="cursor" data-cursor></div>
+    <div id="backTopBtn" class='back-top-btn rounded-xl text-white'></div>
+    
+
+    <footer class="bg-gray-900 text-white py-8 flex flex-col sm:flex-row justify-center items-center">
+        <div class="gap-2 m-3 flex justify-center items-center">
+            <a href="https://www.facebook.com/brainsmediasolutions"><img src="https://images.unsplash.com/photo-1633675254053-d96c7668c3b8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Facebook" class="mx-auto mb-4 w-8 h-8 md:w-12 rounded-2xl md:h-12"></a>
+            <a href="https://twitter.com/brainsmedia2012"><img src="https://images.unsplash.com/photo-1611162618479-ee3d24aaef0b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Twitter" class="mx-auto mb-4 w-8 h-8 md:w-12 rounded-2xl md:h-12"></a>
+            <a href="https://www.instagram.com/Brains_Media_Solutions/"><img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="instagram" class="mx-auto mb-4 w-8 h-8 md:w-12 rounded-2xl md:h-12"></a>
+
+        </div>
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Brains Media Solutions. All rights reserved.</p>
+        </div>
+        <div>
+            <a href="">Privacy Policy</a>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+</script>
+</body>
+
+</html>
